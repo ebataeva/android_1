@@ -13,7 +13,7 @@
         android:fontFamily="cursive"
         android:text="Field with text"
         android:textFontWeight="20"
-        android:textSize="34sp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
