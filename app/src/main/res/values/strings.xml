@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Calc</string>
     <string name="_2">2</string>
     <string name="point">.</string>
     <string name="_0">0</string>
@@ -17,5 +17,6 @@
     <string name="multitply">*</string>
     <string name="divide">%</string>
     <string name="clear">C</string>
+    <string name="button_equals">=</string>
 
 </resources>
