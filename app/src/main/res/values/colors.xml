@@ -11,5 +11,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name = "lemon">#BAC368</color>
+    <color name = "lemonTint">#278BC34A</color>
+
+    <color name = "light_gray">#792B2B2B</color>
 
 </resources>

@@ -4,55 +4,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
+
     android:orientation="vertical"
     tools:context=".SecondActivity">
 
     <LinearLayout
         android:layout_width="374dp"
-        android:layout_height="wrap_content"
+        android:layout_height="84dp"
         android:layout_weight="0"
+        android:background="@drawable/back"
         android:focusable="auto"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:theme="@style/Theme.My">
+
         <LinearLayout
-            android:layout_width="374dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:layout_weight="1"
             android:backgroundTint="#2B2B2B"
             android:focusable="auto"
             android:orientation="horizontal">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:backgroundTint="#2B2B2B"
-    android:focusable="auto"
-    android:orientation="vertical"
-    >
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="3dp"
-            android:layout_weight="1"
-            android:textSize="@dimen/textSize" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="auto"
+                android:orientation="vertical">
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/equalsText"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="@dimen/textSize" />
-</LinearLayout>
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textSize" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_equals"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
-            android:layout_weight="3"
-            android:text="@string/button_equals"
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/equalsText"
+                    android:layout_width="match_parent"
+                    android:layout_height="272dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/textSize" />
+            </LinearLayout>
 
-            android:textSize="@dimen/textSize" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_equals"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_margin="2dp"
+                android:layout_weight="3"
+                android:text="@string/button_equals"
+
+                android:textSize="@dimen/textSize" />
         </LinearLayout>
 
 
@@ -61,7 +66,6 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
@@ -128,9 +132,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
+            android:layout_weight="1"
             android:text="@string/_5"
-            android:textSize="@dimen/textSize"
-            />
+            android:textSize="@dimen/textSize" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
