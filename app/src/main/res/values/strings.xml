@@ -18,5 +18,6 @@
     <string name="divide">%</string>
     <string name="clear">C</string>
     <string name="button_equals">=</string>
+    <string name="answer">ответ</string>
 
 </resources>

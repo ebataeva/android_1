@@ -9,7 +9,7 @@ public class Calc {
     private String words[];
     double equals;
 
-    public void setFirstArg(int firstArg) {
+    public void setFirstArg(double firstArg) {
         this.firstArg = firstArg;
     }
     public void Calc() {
@@ -92,6 +92,8 @@ public class Calc {
                     inputStr.setLength(0);
                     isOperatorSelected = false;
                     isPointSelected = false;
+
+
                     break;
             }
         }
